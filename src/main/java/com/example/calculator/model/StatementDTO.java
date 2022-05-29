@@ -4,7 +4,6 @@ package com.example.calculator.model;
 import javax.validation.constraints.Size;
 
 final public class StatementDTO {
-    @Size
     private double a;
     private double b;
     Operation operation;
